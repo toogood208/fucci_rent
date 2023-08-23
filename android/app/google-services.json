@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "108097768461",
+    "project_id": "fucci-rents",
+    "storage_bucket": "fucci-rents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108097768461:android:f72c646a17bd22dea81944",
+        "android_client_info": {
+          "package_name": "com.example.fucci_rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108097768461-jtlo35gc94hhjdllq5lkji780lfmm417.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8NOgZduimlnbSVS0ElKRYK5DUL4O7rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108097768461-jtlo35gc94hhjdllq5lkji780lfmm417.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108097768461-7slcbta31mhai5jjp3u5t1fdcel4u6po.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fucciRent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108097768461:android:56859935f1a0346aa81944",
+        "android_client_info": {
+          "package_name": "com.example.fucci_rents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108097768461-h52a62dgokvafk4h2pfgda7umafn03lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fucci_rents",
+            "certificate_hash": "968d0ba0d61c117357ae65e4b05e113098f2ab9b"
+          }
+        },
+        {
+          "client_id": "108097768461-jtlo35gc94hhjdllq5lkji780lfmm417.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8NOgZduimlnbSVS0ElKRYK5DUL4O7rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108097768461-jtlo35gc94hhjdllq5lkji780lfmm417.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108097768461-7slcbta31mhai5jjp3u5t1fdcel4u6po.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fucciRent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
