@@ -1,12 +1,12 @@
 import 'package:stacked/stacked_annotations.dart';
 
 import 'package:fucci_rent/ui/views/splashscreen/splashscreen_view.dart';
+import 'package:stacked_services/stacked_services.dart';
 
-import 'package:fucci_rent/services/navigation_service.dart';
 
 // @stacked-import
 @StackedApp(routes: [
-  MaterialRoute(page: SplashscreenView),
+  MaterialRoute(page: SplashscreenView, initial: true),
 // @stacked-route
 ], dependencies: [
   LazySingleton(classType: NavigationService),

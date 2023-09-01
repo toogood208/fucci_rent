@@ -12,7 +12,7 @@ import 'package:stacked/stacked.dart' as _i1;
 import 'package:stacked_services/stacked_services.dart' as _i4;
 
 class Routes {
-  static const splashscreenView = '/splashscreen-view';
+  static const splashscreenView = '/';
 
   static const all = <String>{splashscreenView};
 }
