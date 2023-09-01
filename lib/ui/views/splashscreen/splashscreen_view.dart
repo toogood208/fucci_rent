@@ -15,58 +15,56 @@ class SplashscreenView extends StackedView<SplashscreenViewModel> {
     Widget? child,
   ) {
     return Container(
-        constraints: const BoxConstraints.expand(),
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: const AssetImage("assets/images/auth_background.png"),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-                Colors.black.withOpacity(0.2), BlendMode.darken),
-          ),
+      constraints: const BoxConstraints.expand(),
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: const AssetImage("assets/images/auth_background.png"),
+          fit: BoxFit.cover,
+          colorFilter:
+              ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.darken),
         ),
-        child: Container(
-            padding: const EdgeInsets.fromLTRB(12, 40, 12, 0),
-            width: double.infinity,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  stops: const [0.1, 0.9],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [Colors.black.withOpacity(0), Colors.black]),
-            ),
-            child: Scaffold(
-              backgroundColor: Colors.transparent,
-              body: Column(
+      ),
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(12, 40, 12, 0),
+        width: double.infinity,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+              stops: const [0.1, 0.9],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Colors.black.withOpacity(0), Colors.black]),
+        ),
+        child: Scaffold(
+          backgroundColor: Colors.transparent,
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Fucci",
-                        style: GoogleFonts.inter(
-                            color: AppColors.greenColor,
-                            fontSize: 36,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        " Rents",
-                        style: GoogleFonts.lato(
-                            color: AppColors.whiteColor,
-                            fontSize: 36,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ],
+                  Text(
+                    "Fucci",
+                    style: GoogleFonts.inter(
+                        color: AppColors.greenColor,
+                        fontSize: 36,
+                        fontWeight: FontWeight.bold),
                   ),
-                  const CircularProgressIndicator(
-                    backgroundColor: AppColors.greenColor,
-                    color: AppColors.whiteColor,
-                  )
+                  Text(
+                    " Rents",
+                    style: GoogleFonts.inter(
+                        color: AppColors.whiteColor,
+                        fontSize: 36,
+                        fontWeight: FontWeight.bold),
+                  ),
                 ],
-              ),
-            )));
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 
   @override
